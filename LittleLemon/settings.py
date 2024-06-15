@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'restaurant',
+    'djoser',
     'rest_framework',
     'rest_framework.authtoken'
 ]
@@ -144,3 +145,5 @@ REST_FRAMEWORK = {
         'ten':'10/minute',
     }
 }
+
+DJOSER = {'USER_ID_FIELD':'username'}
